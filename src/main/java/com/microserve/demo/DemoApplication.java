@@ -7,8 +7,10 @@ import org.springframework.boot.Banner;
 @SpringBootApplication
 public class DemoApplication {
 	public static void main(String[] args) {
-
-		new SpringApplicationBuilder().sources(DemoApplication.class).bannerMode(Banner.Mode.OFF).run(args);
+		new SpringApplicationBuilder()
+				.sources(DemoApplication.class)
+				.bannerMode(Banner.Mode.OFF)
+				.run(args);
 	}
 
 }
